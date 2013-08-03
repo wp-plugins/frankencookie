@@ -3,7 +3,7 @@ Contributors: itthinx
 Donate link: http://www.itthinx.com/plugins/frankencookie
 Tags: bureaucracy, compliance, cookie, cookie law, cookies, eu, eu cookie directive, eu cookie law, nonsense, law, privacy, regulation, stupid, useless 
 Requires at least: 3.5.1
-Tested up to: 3.5.1
+Tested up to: 3.6
 Stable tag: 1.0.0
 License: GPLv3
 
@@ -100,10 +100,16 @@ Example - show the message at a fixed position at the bottom of the page:
 
 == Changelog ==
 
+= 1.0.1 =
+* WordPress 3.6 compatibility checked
+
 = 1.0.0 =
 * Initial release.
 
 == Upgrade Notice ==
+
+= 1.0.1 =
+* WordPress 3.6 compatibility checked
 
 = 1.0.0 =
 * Initial release.
