@@ -4,7 +4,7 @@ Donate link: http://www.itthinx.com/plugins/frankencookie
 Tags: bureaucracy, compliance, cookie, cookie law, cookies, eu, eu cookie directive, eu cookie law, nonsense, law, privacy, regulation, stupid, useless 
 Requires at least: 3.5.1
 Tested up to: 3.6
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 License: GPLv3
 
 FrankenCookie provides a widget that offers visitors an explanation about cookies being placed on their computer.
