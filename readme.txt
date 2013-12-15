@@ -3,8 +3,8 @@ Contributors: itthinx
 Donate link: http://www.itthinx.com/plugins/frankencookie
 Tags: bureaucracy, compliance, cookie, cookie law, cookies, eu, eu cookie directive, eu cookie law, nonsense, law, privacy, regulation, stupid, useless 
 Requires at least: 3.5.1
-Tested up to: 3.6
-Stable tag: 1.0.1
+Tested up to: 3.8
+Stable tag: 1.0.2
 License: GPLv3
 
 FrankenCookie provides a widget that offers visitors an explanation about cookies being placed on their computer.
@@ -100,6 +100,9 @@ Example - show the message at a fixed position at the bottom of the page:
 
 == Changelog ==
 
+= 1.0.2 =
+* WordPress 3.8 compatibility checked
+
 = 1.0.1 =
 * WordPress 3.6 compatibility checked
 
@@ -108,8 +111,12 @@ Example - show the message at a fixed position at the bottom of the page:
 
 == Upgrade Notice ==
 
+= 1.0.2 =
+* WordPress 3.8 compatibility checked
+
 = 1.0.1 =
 * WordPress 3.6 compatibility checked
 
 = 1.0.0 =
 * Initial release.
+
