@@ -21,16 +21,16 @@
  * Plugin Name: FrankenCookie
  * Plugin URI: http://www.itthinx.com/plugins/frankencookie
  * Description: FrankenCookie provides a widget that offers visitors an explanation about cookies being placed on their computer.
- * Version: 1.0.3
+ * Version: 1.0.4
  * Author: itthinx
  * Author URI: http://www.itthinx.com
  * Donate-Link: http://www.itthinx.com
  * License: GPLv3
  */
-define( 'FCOOK_CORE_VERSION',  '1.0.3' );
+define( 'FCOOK_CORE_VERSION',  '1.0.4' );
 define( 'FCOOK_FILE',          __FILE__ );
-define( 'FCOOK_DIR',           WP_PLUGIN_DIR . '/frankencookie' );
-define( 'FCOOK_CORE_URL',      WP_PLUGIN_URL . '/frankencookie' );
+define( 'FCOOK_DIR',           untrailingslashit( plugin_dir_path( __FILE__ ) ) );
+define( 'FCOOK_CORE_URL',      plugins_url( '/frankencookie' ) );
 define( 'FCOOK_PLUGIN_DOMAIN', 'frankencookie' );
 
 /**
