@@ -2,7 +2,7 @@
 /**
  * class-frankencookie-widget.php
  *
- * Copyright (c) 2013 "kento" Karim Rahimpur www.itthinx.com
+ * Copyright (c) 2013 - 2015 "kento" Karim Rahimpur www.itthinx.com
  *
  * This code is released under the GNU General Public License.
  * See COPYRIGHT.txt and LICENSE.txt.
@@ -114,10 +114,10 @@ class FrankenCookie_Widget extends WP_Widget {
 		if ( !empty( $title ) ) {
 			echo $before_title . $title . $after_title;
 		}
-		echo '<div class="message">';
+		echo '<div class="frankencookie-message">';
 		echo $text;
 		echo '</div>';
-		echo '<div class="hide">';
+		echo '<div class="frankencookie-hide">';
 		$current_url = ( is_ssl() ? 'https://' : 'http://' ) . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
 		echo sprintf(
 			__( '<a href="%s">%s</a>', FCOOK_PLUGIN_DOMAIN ),
